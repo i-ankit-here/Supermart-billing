@@ -168,7 +168,8 @@ public:
             products[i]->setId();
             products[i]->setPrice();
             products[i]->setQuantity();
-
+            products[i]->tax = products[i]->calculate_tax();
+            products[i]->discount = products[i]->calculate_discount();
             file.seekp(i*sizeof(*products[i]));
             file.write((char*)products[i],sizeof(*products[i]));
             file.close();
@@ -260,8 +261,9 @@ public:
         cin.ignore();
     }
     ~inventory(){
-        // file.open("inventory.dat",ios::binary|ios::out);
-        // for(auto it:products)file.write((char*)it,sizeof(*it));
+        if(file)file.close();
+        file.open("inventory.dat",ios::binary|ios::out);
+        for(auto it:products)file.write((char*)it,sizeof(*it));
         file.close();
 
     }
