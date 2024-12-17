@@ -4,11 +4,11 @@ using namespace std;
 
 void menu(inventory &i){
     cout<<"1. Create bill"<<endl;
-    cout<<"2. Add a product"<<endl;
-    cout<<"3. Remove a product"<<endl;
-    cout<<"4. Search a product"<<endl;
-    cout<<"5. Update a product"<<endl;
-    cout<<"6. List of all products"<<endl;
+    cout<<"2. Add a product to inventory"<<endl;
+    cout<<"3. Remove a product from inventory"<<endl;
+    cout<<"4. Search a product in inventory"<<endl;
+    cout<<"5. Update a product from inventory"<<endl;
+    cout<<"6. List of all products from inventory"<<endl;
     cout<<"0. Exit"<<endl;
     cout<<"Enter your choice: ";
     int n;
