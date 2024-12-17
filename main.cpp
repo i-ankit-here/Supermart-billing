@@ -52,7 +52,8 @@ void menu(inventory &i){
         menu(i);
     
     default:
-        break;
+        system("cls");
+        menu(i);
     }
 }
 
