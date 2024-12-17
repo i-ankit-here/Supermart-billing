@@ -51,6 +51,7 @@ public:
         cin>>buyer;
         cout<<"Enter phone no: ";
         cin>>mob;
+        system("cls");
         menuBill(stock);
     }
     ~bill(){}
