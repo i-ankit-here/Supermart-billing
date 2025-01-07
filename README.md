@@ -1,5 +1,5 @@
 # **Supermart-billing**
-It is a program to generate bills of a Supermart which also includes features like inventory management. User can add,remove and update the items in the stock/inventory any time and can genrate bills for the customer simultaneously. It is developed by utilizing the basic and advanced concepts of Object-Oriented Programming (OOP) using C++ programming language.
+It is a program to generate bills of a Supermart which also includes features like inventory management. User can add,remove and update the items in the stock/inventory any time and can generate bills for the customer simultaneously. It is developed by utilizing the basic and advanced concepts of Object-Oriented Programming (OOP) using C++ programming language.
 
 ## Instructions to install and run the program
 - Clone the repository or download the zip file and extract in a folder<br/>
